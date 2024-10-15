@@ -7,10 +7,10 @@ function isSquare(number){
 }
 
 function greeting(name, surname, age){
-    return "Hello, my name is " + name + surname + " and I am " + age  + " years old"
+    return "Hello, my name is " + name + " " + surname + " and I am " + age  + " years old"
 }
 
-function main(){
+function mainop(){
     console.log(getSum(2, 5))
     console.log(isSquare(9))
     console.log(isSquare(3))

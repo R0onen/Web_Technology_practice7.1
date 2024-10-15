@@ -41,3 +41,8 @@ function inOrOutRange(a, b, c){
     }
 }
 
+function maincf(){
+    console.log(getMin(5, 9, 7))
+    console.log(evenOrOdd(2, 5, 8))
+    console.log(inOrOutRange(5, 10, 8))
+}
